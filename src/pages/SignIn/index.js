@@ -22,11 +22,11 @@ export default function SignIn() {
                     style={styles.input}
                 />
                 <TouchableOpacity style={styles.button}>
-                    <Text styles={styles.buttonText}>Acessar</Text>
+                    <Text style={styles.buttonText}>Acessar</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.buttonRegister}>
-                    <Text styles={styles.registerText}>Não possui uma conta? Cadastre-se!</Text>
+                    <Text style={styles.registerText}>Não possui uma conta? Cadastre-se!</Text>
                 </TouchableOpacity>
 
             </Animatable.View>
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
 
     },
     button:{
-        backgroundColor: '#6b3fa0',
+        backgroundColor: '#38a69d',
         width: '100%',
         borderRadius: 4,
         paddingVertical: 8,
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     buttonText:{
         fontSize: 18,
         fontWeight: 'bold',
-        color: '#FFF',
+        color: '#FFFFFF',
     },
 
     buttonRegister:{
