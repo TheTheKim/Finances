@@ -20,7 +20,7 @@ export default function Welcome() {
                 <Animatable.Image 
                     animation='flipInY'
                     source={require('../../assets/intercambio.png')}
-                    style={{ width: '100%'}}
+                    style={{ width: 350, height: 350 }}
                     resizeMode='contain' 
                     />
             </View>
