@@ -18,9 +18,9 @@ export default function Welcome() {
         <View style={styles.container}>
             <View style={styles.containerLogo}>
                 <Animatable.Image 
-                    animation='flipInY'
+                    animation='flipInX'
                     source={require('../../assets/intercambio.png')}
-                    style={{ width: '100%'}}
+                    style={{ width: 350, height: 350 }}
                     resizeMode='contain' 
                     />
             </View>
